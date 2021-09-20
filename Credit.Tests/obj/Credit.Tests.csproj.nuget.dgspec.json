@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vitaly/RiderProjects/CreditWebApp/Credit.Tests/Credit.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj",
+        "projectName": "Credit.BLL",
+        "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj",
+        "packagesPath": "/home/vitaly/.nuget/packages/",
+        "outputPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitaly/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj",
+        "projectName": "Credit.Core",
+        "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj",
+        "packagesPath": "/home/vitaly/.nuget/packages/",
+        "outputPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitaly/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj",
+        "projectName": "Credit.MockDAL",
+        "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj",
+        "packagesPath": "/home/vitaly/.nuget/packages/",
+        "outputPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitaly/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitaly/RiderProjects/CreditWebApp/Credit.Tests/Credit.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Tests/Credit.Tests.csproj",
+        "projectName": "Credit.Tests",
+        "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Tests/Credit.Tests.csproj",
+        "packagesPath": "/home/vitaly/.nuget/packages/",
+        "outputPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitaly/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj"
+              },
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj"
+              },
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj"
+              },
+              "/home/vitaly/RiderProjects/CreditWebApp/CreditWebApp/CreditWebApp.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/CreditWebApp/CreditWebApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitaly/RiderProjects/CreditWebApp/CreditWebApp/CreditWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitaly/RiderProjects/CreditWebApp/CreditWebApp/CreditWebApp.csproj",
+        "projectName": "CreditWebApp",
+        "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/CreditWebApp/CreditWebApp.csproj",
+        "packagesPath": "/home/vitaly/.nuget/packages/",
+        "outputPath": "/home/vitaly/RiderProjects/CreditWebApp/CreditWebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitaly/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/Credit.BLL.csproj"
+              },
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj"
+              },
+              "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj": {
+                "projectPath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/Credit.MockDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21451.13, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21451.13, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0-dev-01371, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.2-dev-10289, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0-dev-00291, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1-dev-00876, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "ZNetCS.AspNetCore.Authentication.Basic": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/bin/Debug/net5.0/Credit.BLL.deps.json
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/bin/Debug/net5.0/Credit.BLL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/bin/Debug/net5.0/ref/Credit.BLL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/bin/Debug/net5.0/Credit.BLL.pdb
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/bin/Debug/net5.0/Credit.Core.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/bin/Debug/net5.0/Credit.Core.pdb
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.csprojAssemblyReference.cache
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.AssemblyInfoInputs.cache
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.AssemblyInfo.cs
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.csproj.CoreCompileInputs.cache
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.csproj.CopyComplete
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/ref/Credit.BLL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.BLL/obj/Debug/net5.0/Credit.BLL.pdb

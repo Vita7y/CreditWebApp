@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "r26iryfc/y4vRFS5mhxXRuLqguLTqm34IB+mC1voob64oJ1EbIzUkXjo7AOLnwHtUrRaMhavUjtlRS/wUtAupw==",
+  "success": true,
+  "projectFilePath": "/home/vitaly/RiderProjects/CreditWebApp/Credit.Core/Credit.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/vitaly/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.0/microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/microsoft.extensions.primitives/3.0.0/microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/home/vitaly/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

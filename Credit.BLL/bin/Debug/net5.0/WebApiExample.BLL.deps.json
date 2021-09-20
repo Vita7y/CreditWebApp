@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WebApiExample.BLL/1.0.0": {
+        "dependencies": {
+          "WebApiExample.Core": "1.0.0"
+        },
+        "runtime": {
+          "WebApiExample.BLL.dll": {}
+        }
+      },
+      "WebApiExample.Core/1.0.0": {
+        "runtime": {
+          "WebApiExample.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApiExample.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApiExample.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

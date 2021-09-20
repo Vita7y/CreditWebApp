@@ -1,0 +1,16 @@
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/Credit.MockDAL.deps.json
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/Credit.MockDAL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/ref/Credit.MockDAL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/Credit.MockDAL.pdb
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/Credit.Core.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/Credit.Core.pdb
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.csprojAssemblyReference.cache
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.AssemblyInfoInputs.cache
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.AssemblyInfo.cs
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.csproj.CoreCompileInputs.cache
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.csproj.CopyComplete
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/ref/Credit.MockDAL.dll
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/obj/Debug/net5.0/Credit.MockDAL.pdb
+/home/vitaly/RiderProjects/CreditWebApp/Credit.MockDAL/bin/Debug/net5.0/data.json
