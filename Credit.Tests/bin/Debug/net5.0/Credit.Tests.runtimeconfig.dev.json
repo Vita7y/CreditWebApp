@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/vitaly/.dotnet/store/|arch|/|tfm|",
-      "/home/vitaly/.nuget/packages"
-    ]
-  }
-}
