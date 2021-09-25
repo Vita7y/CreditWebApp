@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Credit.Core.BLL;
 using Credit.Core.Models;
-using CreditWebApp.Authentication;
 using CreditWebApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +32,7 @@ namespace CreditWebApp.Controllers
 	            Log.Debug("Run GetCredits..");
 	            var credits = await _creditBL.GetCredits(new CreditFilter());
                 var creditModels = _mapper.Map<List<CreditModel>>(credits);
-                Log.Debug("Found GetCredits {creditModels.Count} count", creditModels.Count);
+                Log.Debug("Found GetCredits {@creditModels.Count} count", creditModels.Count);
                 return Ok(creditModels);
     		}
     
@@ -41,10 +40,10 @@ namespace CreditWebApp.Controllers
     		[HttpGet]
     		public async Task<ActionResult> GetCreditById(Guid id)
             {
-	            Log.Debug("Run GetCreditById with {Id}", id);
+	            Log.Debug("Run GetCreditById with {@Id}", id);
 	            var credit = await _creditBL.GetCreditById(id);
 	            var creditModels = _mapper.Map<CreditModel>(credit);
-	            Log.Debug("GetCreditById result for {Id} is {@CreditModels}", id, creditModels);
+	            Log.Debug("GetCreditById result for {@Id} is {@CreditModels}", id, creditModels);
 	            return Ok(creditModels);
     		}
     
@@ -73,7 +72,7 @@ namespace CreditWebApp.Controllers
     		[HttpDelete]
     		public async Task<ActionResult> DeleteCredit(Guid id)
             {
-	            Log.Debug("Run DeleteCredit with {Id}",id);
+	            Log.Debug("Run DeleteCredit with {@Id}",id);
 	            await _creditBL.DeleteCredit(id);
     			return Ok();
     		}

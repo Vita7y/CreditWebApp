@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  log:
+    image: datalust/seq
+    restart: always
+    container_name: seq
+    ports:
+      - "5341:5341"
+      - "80:80"
+    expose:
+      - "5341"
+    environment:
+      - ACCEPT_EULA=Y
+      - EQ_FIRSTRUN_ADMINPASSWORDHASH="$PH"
+    volumes:
+      - /path/to/seq/data:/data
+  distro:
+    image: creditwebapp
+    restart: always
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    container_name: creditwebapp
+
+    
+    
+    
